@@ -1,0 +1,14 @@
+GET http://localhost:8080/v1/todo/1
+Accept: application/json
+
+###
+GET http://localhost:8080/index
+Accept: application/json
+
+###
+POST http://localhost:8080/v1/todo
+Content-Type: application/json
+
+{"id": 1,"title": "吃饭"}
+
+###
